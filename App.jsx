@@ -124,7 +124,15 @@ function Login({ onLogin }) {
     <div className="loginPage">
       <div className="techBg" />
       <form className="loginCard" onSubmit={submit}>
-        <img src="/gpsruta-logo.jpeg" className="loginLogo" />
+        
+<div className="svgLogo">
+  <div className="logoCircle"><Target size={52} /></div>
+  <div>
+    <h1><span>GPS</span><b>ruta</b><small>.cl</small></h1>
+    <p>Seguimiento y Seguridad</p>
+  </div>
+</div>
+
         <h1>Ingreso Seguro</h1>
         <p>Sistema de cobranza GPSruta.cl</p>
         <label>Clave de acceso</label>
@@ -142,8 +150,12 @@ function Login({ onLogin }) {
 
 function LogoBlock() {
   return (
-    <div className="logoBlock">
-      <img src="/gpsruta-logo.jpeg" alt="GPSruta.cl" />
+    <div className="logoBlock svgLogo sidebarLogo">
+      <div className="logoCircle"><Target size={52} /></div>
+      <div>
+        <h1><span>GPS</span><b>ruta</b><small>.cl</small></h1>
+        <p>Seguimiento y Seguridad</p>
+      </div>
     </div>
   );
 }
