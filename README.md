@@ -1,11 +1,4 @@
+GPSruta.cl - Sistema de Cobranza corregido para Vercel.
 
-# GPSruta.cl Sistema de Cobranza
-
-## Instalación
-npm install
-
-## Ejecutar
-npm run dev
-
-## Build Vercel
-npm run build
+Build Command: npm run build
+Output Directory: dist
